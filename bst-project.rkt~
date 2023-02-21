@@ -1,0 +1,7 @@
+#lang racket
+;----------
+struct definitions
+;----------
+
+(struct node (value count left right) #:mutable #:transparent)
+(struct bst (root))
